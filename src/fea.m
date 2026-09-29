@@ -139,6 +139,7 @@ for i = 1:numel(filename)
     % To perform spectral analysis, the mean is removed again.
     % 为了做频谱分析，再次进行去均值
     % Introduce the Hamming window to address the problem of spectral leakage.
+    % 引入Hanmming窗解决频谱泄露问题
     p_fft = (P - mean(P)) .* hamming(len_P);
     p = fft(p_fft);
     A_p = abs(p);
