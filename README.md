@@ -14,6 +14,8 @@ This project can be run with a single click using `main.m`. Before running the p
 
 The demonstration data used in this project is identical to the data used in the research.
 
+Dataset Name： Hydraulic Fracturing-Induced Earthquake Discrimination Dataset for Shale Gas Development
+
 Raw waveform data is available at: 
 
 https://drive.google.com/file/d/1B9ZgsbZps3hfVdBaIhsdLhPA6ijZK9uu/view?usp=drive_link
@@ -61,6 +63,8 @@ https://drive.google.com/file/d/1bGQcM7m9h840zcePKs8dZm1tPiPwUocC/view?usp=drive
 ## 数据说明
 
 本项目中所用到的演示数据均与研究时所用数据一致。
+
+数据集名称：页岩气开采水力压裂诱发地震判别数据集
 
 原始波形数据可获取自：https://drive.google.com/file/d/1B9ZgsbZps3hfVdBaIhsdLhPA6ijZK9uu/view?usp=drive_link
 
