@@ -8,7 +8,7 @@ This project demonstrates how to distinguish between earthquakes induced by shal
 
 ## Project Operation Instructions
 
-This project can be run with a single click using `main.m`. Before running the project, please configure the settings in `main.m` and extract the pre-prepared data from the `data` folder. Additionally, users must independently add the necessary tools for reading waveform data; the link to the tool project is:[IPGP/mseed-lib: Matlab/Octave codes to read and write miniSEED files](https://github.com/IPGP/mseed-lib).
+This project can be run with a single click using `main.m`. Before running the project, please configure the settings in `main.m` and extract the pre-prepared data from the `data` folder. Additionally, users must independently add the necessary tools for reading waveform data; the link to the tool project is: [IPGP/mseed-lib: Matlab/Octave codes to read and write miniSEED files](https://github.com/IPGP/mseed-lib).
 
 ## Data Notes
 
