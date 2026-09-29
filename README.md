@@ -8,16 +8,18 @@ This project demonstrates how to distinguish between earthquakes induced by shal
 
 ## Project Operation Instructions
 
-This project can be run with a single click using `main.m`. Before running the project, please configure the settings in `main.m` and extract the pre-prepared data from the `data` folder. Additionally, users must independently add the necessary tools for reading waveform data; the link to the tool project is: [IPGP/mseed-lib: Matlab/Octave codes to read and write miniSEED files](https://github.com/IPGP/mseed-lib).
+This project can be run with a single click using `main.m`. Before running the project, please configure the settings in `main.m` and extract the pre-prepared data from the `data` folder. Additionally, users must independently add the necessary tools for reading waveform data; the link to the tool project is:[IPGP/mseed-lib: Matlab/Octave codes to read and write miniSEED files](https://github.com/IPGP/mseed-lib).
 
 ## Data Notes
 
 The demonstration data used in this project is identical to the data used in the research.
 
 Raw waveform data is available at: 
+
 https://drive.google.com/file/d/1B9ZgsbZps3hfVdBaIhsdLhPA6ijZK9uu/view?usp=drive_link
 
 Processed waveform data is available at: 
+
 https://drive.google.com/file/d/1bGQcM7m9h840zcePKs8dZm1tPiPwUocC/view?usp=drive_link
 
 ## Code Explanation
@@ -29,16 +31,16 @@ https://drive.google.com/file/d/1bGQcM7m9h840zcePKs8dZm1tPiPwUocC/view?usp=drive
 | data\HFIEs_index_PS.mat       | The arrival times of P- and S-waves in the seismic waveforms induced by shale gas hydraulic fracturing were manually picked. |
 | data\TEs.zip                  | This dataset contains tectonic earthquake waveforms. Please extract the files yourself before running the project, ensuring that you avoid creating redundant nested directory structures during extraction. All waveform data included here has already been processed. |
 | data\TEs_index_PS.mat         | The arrival times of P and S waves in the tectonic earthquake waveforms were all picked manually. |
-| py\classifier_xgb_function.py | Python script for implementing XGBoost model training functionality |
-| src\classifier_lstm.m         | Function implementing LSTM model training                    |
-| src\classifier_rf.m           | Function implementing the Random Forest model training process |
-| src\classifier_svm.m          | Function implementing SVM model training                     |
-| src\classifier_xgb.m          | Main function for XGBoost model training                     |
-| src\fea.m                     | Feature extraction function                                  |
-| src\score.m                   | Model evaluation function                                    |
-| process.py                    | Waveform data preprocessing function                         |
-| Events.txt                    | Detailed spatiotemporal information on earthquakes induced by shale gas hydraulic fracturing |
-| temp                          | Cache directory                                              |
+| py\classifier_xgb_function.py | Python script for implementing XGBoost model training functionality. |
+| src\classifier_lstm.m         | Function implementing LSTM model training.                   |
+| src\classifier_rf.m           | Function implementing the Random Forest model training process. |
+| src\classifier_svm.m          | Function implementing SVM model training.                    |
+| src\classifier_xgb.m          | Main function for XGBoost model training.                    |
+| src\fea.m                     | Feature extraction function.                                 |
+| src\score.m                   | Model evaluation function.                                   |
+| process.py                    | Waveform data preprocessing function.                        |
+| Events.txt                    | Detailed spatiotemporal information on earthquakes induced by shale gas hydraulic fracturing. |
+| temp                          | Cache directory.                                             |
 
 ------
 
@@ -73,16 +75,16 @@ https://drive.google.com/file/d/1bGQcM7m9h840zcePKs8dZm1tPiPwUocC/view?usp=drive
 | data\HFIEs_index_PS.mat       | 页岩气水力压裂诱发地震波形中的P、S波达到时刻，均为手动拾取。 |
 | data\TEs.zip                  | 构造地震波形数据，在运行本项目时，请自行解压，解压时，请避免出现目录重复嵌套。本波形数据均已经过处理。 |
 | data\TEs_index_PS.mat         | 构造地震波形中的P、S波达到时刻，均为手动拾取。               |
-| py\classifier_xgb_function.py | XGBoost模型训练功能实现Python脚本                            |
-| src\classifier_lstm.m         | LSTM模型训练功能实现函数                                     |
-| src\classifier_rf.m           | RF模型训练功能实现函数                                       |
-| src\classifier_svm.m          | SVM模型训练功能实现函数                                      |
-| src\classifier_xgb.m          | XGBoost模型训练功能主函数                                    |
-| src\fea.m                     | 特征提取函数                                                 |
-| src\score.m                   | 模型评价函数                                                 |
-| process.py                    | 波形数据预处理函数                                           |
-| Events.txt                    | 页岩气水力压裂诱发地震的详细时空信息                         |
-| temp                          | 缓存目录                                                     |
+| py\classifier_xgb_function.py | XGBoost模型训练功能实现Python脚本。                          |
+| src\classifier_lstm.m         | LSTM模型训练功能实现函数。                                   |
+| src\classifier_rf.m           | RF模型训练功能实现函数。                                     |
+| src\classifier_svm.m          | SVM模型训练功能实现函数。                                    |
+| src\classifier_xgb.m          | XGBoost模型训练功能主函数。                                  |
+| src\fea.m                     | 特征提取函数。                                               |
+| src\score.m                   | 模型评价函数。                                               |
+| process.py                    | 波形数据预处理函数。                                         |
+| Events.txt                    | 页岩气水力压裂诱发地震的详细时空信息。                       |
+| temp                          | 缓存目录。                                                   |
 
 
 
