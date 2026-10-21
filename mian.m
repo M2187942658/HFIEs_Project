@@ -21,7 +21,7 @@ addpath(genpath('./temp'))
 addpath(genpath('./py'))
 FARTHER_PATH = pwd();
 XGB_Setting = struct();
-XGB_Setting.PYTHON_ENV = "D:\anaconda3\envs\ML\python.exe"; % Please set up the Python environment. | 请设定Python环境
+XGB_Setting.PYTHON_ENV = %%%%%%%%%%%%%%; % Please remove any redundant comments and specify the Python environment path.| 请删除多余的注释，并设定Python环境地址
 XGB_Setting.PY_PATH = fullfile(FARTHER_PATH, 'py', 'classifier_xgb_function.py');
 XGB_Setting.SAVE_PATH  = fullfile(FARTHER_PATH, 'temp', 'XGB_result.mat');
 XGB_Setting.INPUT_PATH = fullfile(FARTHER_PATH, 'temp', 'XGB_data.mat');
@@ -50,10 +50,11 @@ fea_TEs = fea(TEs_PS_INFO_PATH, TEs_DATA_PATH, 1);
 DATA = [fea_HFIEs; fea_TEs];
 DATA = DATA(randperm(size(DATA, 1)), :);
 
- % Train an LSTM model
- % 训练LSTM模型
+ % Train an LSTM model|训练LSTM模型
 classifier_lstm(DATA);
-classifier_svm(DATA); % 训练SVM模型
-classifier_rf(DATA); % 训练RF模型
-classifier_xgb(XGB_Setting, DATA); % 训练XGBoost模型
+classifier_svm(DATA); % Train an SVM model|训练SVM模型
+classifier_rf(DATA); % Train an RF model|训练RF模型
+% When training an XGBoost model, if you are unable to configure the Python environment correctly, comment out the line of code below.
+% 训练XGBoost模型，若无法正确配置Python环境，注释下行代码
+classifier_xgb(XGB_Setting, DATA);
 
