@@ -3,19 +3,25 @@ main:
     Main program for the demonstration of the project distinguishing 
 earthquakes induced by shale gas hydraulic fracturing.
 
-main：
+main:
     页岩气水力压裂诱发地震区分项目演示代码主程序
 
-Email：meijiamu26@mails.ucas.ac.cn
+Email: meijiamu26@mails.ucas.ac.cn
+Date:2026/10/21
 %}
 
 addpath(genpath('./src'))
 addpath(genpath('./data'))
+% The 'temp' folder serves as a cache directory for data exchange between MATLAB and Python.
+% temp文件夹为缓存文件夹，用于Matlab与Python间的数据交流
+if ~isfolder('./temp')
+    mkdir('./temp');
+end
 addpath(genpath('./temp'))
 addpath(genpath('./py'))
 FARTHER_PATH = pwd();
 XGB_Setting = struct();
-XGB_Setting.PYTHON_ENV = ; % Please set up the Python environment. | 请设定Python环境
+XGB_Setting.PYTHON_ENV = "D:\anaconda3\envs\ML\python.exe"; % Please set up the Python environment. | 请设定Python环境
 XGB_Setting.PY_PATH = fullfile(FARTHER_PATH, 'py', 'classifier_xgb_function.py');
 XGB_Setting.SAVE_PATH  = fullfile(FARTHER_PATH, 'temp', 'XGB_result.mat');
 XGB_Setting.INPUT_PATH = fullfile(FARTHER_PATH, 'temp', 'XGB_data.mat');
