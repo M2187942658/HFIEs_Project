@@ -18,6 +18,22 @@ This project can be run with a single click using `main.m`. Before running the p
 - Step4: Configure the ‘XGB_Setting.PYTHON_ENV’ variable in the main script by setting it to the path of your Python environment (pointing to the ‘python.exe’ executable). Ensure that this environment meets the necessary requirements—refer to ‘requirements.txt’ for detailed specifications. Once you have navigated your terminal to the working directory, use the provided command to complete the one-click environment setup: `pip install -r requirements.txt`
 - Step5: Run the 'main' script, which will automatically handle the reading of waveform data, feature extraction, the setup of training and test sets, model training, and performance evaluation. The model's performance results will be displayed as text in the console.
 
+## Test environment
+
+Testing confirms that the project runs correctly in this configuration environment.
+
+- Matlab 2025b
+
+  rdmseed
+
+- Python 3.10.22
+
+  numpy==2.2.6
+  pandas==2.3.3
+  scikit-learn==1.7.2
+  scipy==1.15.3
+  xgboost==3.2.0
+
 ## Data Notes
 
 The demonstration data used in this project is identical to the data used in the research.
@@ -75,6 +91,22 @@ https://drive.google.com/file/d/1bGQcM7m9h840zcePKs8dZm1tPiPwUocC/view?usp=drive
 - 步骤3：解压data文件夹中的TEs和HFIEs这两个压缩包，确保这些波形数据存放在各自的文件夹中
 - 步骤4：配置main脚本中的‘XGB_Setting.PYTHON_ENV’变量设定，该变量为Python环境地址，指向‘python.exe’的地址，确保该环境符合运行要求，详细要求见‘requirements.txt’，切换终端到工作目录后，用指令完成环境一键配置：`pip install -r requirements.txt`
 - 步骤5：运行main脚本，该脚本会自动完成波形数据读取、特征提取、训练集和测试集的设定、模型训练、模型性能评估。控制台中会以文本形式展示模型性能结果
+
+## 测试环境
+
+经测试，该项目在该配置环境下正常运行
+
+- Matlab 2025b
+
+  rdmseed
+
+- Python 3.10.22
+
+  numpy==2.2.6
+  pandas==2.3.3
+  scikit-learn==1.7.2
+  scipy==1.15.3
+  xgboost==3.2.0
 
 ## 数据说明
 
