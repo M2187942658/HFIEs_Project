@@ -29,9 +29,12 @@ Testing confirms that the project runs correctly in this configuration environme
 - Python 3.10.22
 
   numpy==2.2.6
+  
   pandas==2.3.3
   scikit-learn==1.7.2
+  
   scipy==1.15.3
+  
   xgboost==3.2.0
 
 ## Data Notes
@@ -103,9 +106,13 @@ https://drive.google.com/file/d/1bGQcM7m9h840zcePKs8dZm1tPiPwUocC/view?usp=drive
 - Python 3.10.22
 
   numpy==2.2.6
+  
   pandas==2.3.3
+  
   scikit-learn==1.7.2
+  
   scipy==1.15.3
+  
   xgboost==3.2.0
 
 ## 数据说明
