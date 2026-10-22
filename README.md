@@ -31,6 +31,7 @@ Testing confirms that the project runs correctly in this configuration environme
   numpy==2.2.6
   
   pandas==2.3.3
+  
   scikit-learn==1.7.2
   
   scipy==1.15.3
