@@ -37,6 +37,8 @@ Testing confirms that the project runs correctly in this configuration environme
   scipy==1.15.3
   
   xgboost==3.2.0
+  
+  obspy
 
 ## Data Notes
 
@@ -115,6 +117,8 @@ https://drive.google.com/file/d/1bGQcM7m9h840zcePKs8dZm1tPiPwUocC/view?usp=drive
   scipy==1.15.3
   
   xgboost==3.2.0
+  
+  obspy
 
 ## 数据说明
 
